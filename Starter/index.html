@@ -19,8 +19,26 @@
   
   <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-
+      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <!--toggle button & icon for it-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation"> <!--toggle bar button & corresponding data-->
+          <span class="navbar-toggler-icon"></span> <!--Picture on button-->
+        </button>
+        <!--data that goes inside the toggle button-->
+        <div class="collapse navbar-collapse" id="navLinks"> <!--corresponding data-->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">TICKETS</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
